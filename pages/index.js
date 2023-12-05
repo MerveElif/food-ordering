@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/layout/Header";
-
+import Home from "../pages/home/index"
 export default function Index() {
   return (
     <div className="">
@@ -12,6 +12,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+      <Home/>
     </div>
   );
 }
